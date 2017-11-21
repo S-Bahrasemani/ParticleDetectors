@@ -1,0 +1,50 @@
+
+\section{Central tracking}
+
+\subsection{Silicon microstrip tracker}
+
+%%%%%% SLIDE
+\begin{frame}{\textcolor{Goldenrod}{Title }}
+  \begin{overlayarea}{\textwidth}{\textheight}
+    \begin{figure}[h]
+      \centering
+      %\includegraphics[height=0.4\textheight]{./Images/}
+    \end{figure}
+
+    \itt[<+->]
+  \item
+    eight concentric cylinders that enclose the SMT\\
+    the cylinder walls are made of two layers of closely
+    spaced scintillating fibres.\\
+    The fibres in one of the two layers
+    are aligned with the beam axis, while the fibres in the other
+    layer are arranged at a three degree relative angle allowing for
+    stereo measurements to be made
+
+ \item The SMT provides both tracking and vertexing over nearly the
+   full $\eta$ coverage of the calorimeter and muon systems.
+   
+ \item The barrel detectors primarily measure the r − φ coordinate and
+   the disk detectors measure r − z as well as r − φ.
+
+ \item The detector has six barrels in the central region. Each barrel
+   has four silicon readout layers. The silicon modules installed in
+   the barrels are called “ladders.” Layers 1 and 2 have twelve
+   ladders each; layers 3 and 4 have twenty-four ladders each, for a
+   total of 432 ladders.
+   
+ \item There are 144 F-wedges and 96 full H-wedges in the tracker;
+   each side of a wedge (upstream and downstream) is read out
+   independently. There is a grand total of 912 readout modules, with
+   792,576 channels.
+ \item The SMT is read out by custom-made 128-channel SVXIIe readout
+   chips.
+   
+    \tti
+  \end{overlayarea}
+\end{frame}
+
+
+
+\subsection{Central fiber tracker}
+

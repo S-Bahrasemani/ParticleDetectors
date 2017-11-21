@@ -1,0 +1,11 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Neutrino}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Neutrino mysteries}{7}{0}{1}
+\beamer@subsectionintoc {1}{2}{Neutrino sources}{10}{0}{1}
+\beamer@sectionintoc {2}{Neutrino detectors}{24}{0}{2}
+\beamer@subsectionintoc {2}{1}{Homestake experiment}{28}{0}{2}
+\beamer@subsectionintoc {2}{2}{GALLEX experiment}{30}{0}{2}
+\beamer@subsectionintoc {2}{3}{Calorimetric neutrino detectors}{39}{0}{2}
+\beamer@subsectionintoc {2}{4}{NOMAD experiment}{43}{0}{2}
+\beamer@subsectionintoc {2}{5}{Super-Kamiokande experiment}{55}{0}{2}
+\beamer@subsectionintoc {2}{6}{SNO experiment}{63}{0}{2}

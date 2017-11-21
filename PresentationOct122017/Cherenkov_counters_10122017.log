@@ -1,0 +1,2360 @@
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.2.6)  11 OCT 2017 10:22
+ restricted system commands enabled.
+**Cherenkov_counters_10122017.tex
+(./Cherenkov_counters_10122017.tex
+LaTeX2e <2017/01/01> patch level 1
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using cache: /usr/local/texlive/2016/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /usr/local/texlive/2016/texmf-var/lu
+atex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-04.lua” from kpse
+-resolved path “/usr/local/texlive/2016/texmf-dist/tex/luatex/luaotfload/fontl
+oader-2017-02-04.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /usr/local/texlive/2016/texmf-var/lu
+atex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.238 seconds
+Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count79
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+\beamer@tempbox=\box26
+\beamer@tempcount=\count80
+\c@beamerpauses=\count81
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count82
+\beamer@minimum=\count83
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count84
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+\headheight=\dimen102
+\headdp=\dimen103
+\footheight=\dimen104
+\sidebarheight=\dimen105
+\beamer@tempdim=\dimen106
+\beamer@finalheight=\dimen107
+\beamer@animht=\dimen108
+\beamer@animdp=\dimen109
+\beamer@animwd=\dimen110
+\beamer@leftmargin=\dimen111
+\beamer@rightmargin=\dimen112
+\beamer@leftsidebar=\dimen113
+\beamer@rightsidebar=\dimen114
+\beamer@boxsize=\dimen115
+\beamer@vboxoffset=\dimen116
+\beamer@descdefault=\dimen117
+\beamer@descriptionwidth=\dimen118
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count85
+\beamer@subsubsectionmax=\count86
+\beamer@subsectionmax=\count87
+\beamer@sectionmax=\count88
+\beamer@totalheads=\count89
+\beamer@headcounter=\count90
+\beamer@partstartpage=\count91
+\beamer@sectionstartpage=\count92
+\beamer@subsectionstartpage=\count93
+\beamer@animationtempa=\count94
+\beamer@animationtempb=\count95
+\beamer@xpos=\count96
+\beamer@ypos=\count97
+\beamer@showpartnumber=\count98
+\beamer@currentsubsection=\count99
+\beamer@coveringdepth=\count100
+\beamer@sectionadjust=\count101
+\beamer@tocsectionnumber=\count102
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count103
+\Gm@cntv=\count104
+\c@Gm@tempcnt=\count105
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /usr/local/texlive/2016/texmf-
+var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /usr/local/texlive
+/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc)) (/usr/lo
+cal/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2017/01/12 v0.01h Graphics/Color for luaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count106
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count107
+\c@pgf@countb=\count108
+\c@pgf@countc=\count109
+\c@pgf@countd=\count110
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.d
+ef
+File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen139
+\extrarowheight=\dimen140
+\NC@list=\toks23
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+\everycr=\toks24
+\minrowclearance=\skip46
+)
+\rownum=\count113
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen141
+\pgfmath@count=\count114
+\pgfmath@box=\box35
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count115
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen142
+\pgf@picmaxx=\dimen143
+\pgf@picminy=\dimen144
+\pgf@picmaxy=\dimen145
+\pgf@pathminx=\dimen146
+\pgf@pathmaxx=\dimen147
+\pgf@pathminy=\dimen148
+\pgf@pathmaxy=\dimen149
+\pgf@xx=\dimen150
+\pgf@xy=\dimen151
+\pgf@yx=\dimen152
+\pgf@yy=\dimen153
+\pgf@zx=\dimen154
+\pgf@zy=\dimen155
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen156
+\pgf@path@lasty=\dimen157
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen158
+\pgf@shorten@start@additional=\dimen159
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count116
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen160
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen161
+\pgf@pt@y=\dimen162
+\pgf@pt@temp=\dimen163
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen164
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen165
+\pgf@sys@shading@range@num=\count117
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box39
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count118
+\XC@countmixins=\count119
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/local/texlive/2016/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks28
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen166
+\Hy@linkcounter=\count120
+\Hy@pagecounter=\count121
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count122
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4362.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4362.
+Package hyperref Info: Option `implicit' set `false' on input line 4362.
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count123
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5088.
+\XeTeXLinkMargin=\dimen167
+\Fld@menulength=\count124
+\Field@Width=\dimen168
+\Fld@charsize=\dimen169
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count125
+
+
+Package hyperref Message: Stopped early.
+
+)
+
+Package hyperref Message: Driver (autodetected): hluatex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2016/06/24 v6.83q Hyperref driver for luaTeX
+\Fld@listcount=\count126
+\c@bookmark@seq@number=\count127
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y) (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+(/usr/local/texlive/2016/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/translator-lang
+uage-mappings.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count128
+\beamer@lastskipcover=\skip47
+\beamer@trivlistdepth=\count129
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count130
+\c@part=\count131
+\c@section=\count132
+\c@subsection=\count133
+\c@subsubsection=\count134
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count135
+\beamer@zoomframecount=\count136
+\beamer@frametextheight=\dimen170
+\c@subsectionslide=\count137
+\beamer@frametopskip=\skip48
+\beamer@framebottomskip=\skip49
+\beamer@frametopskipautobreak=\skip50
+\beamer@framebottomskipautobreak=\skip51
+\beamer@envbody=\toks30
+\framewidth=\dimen171
+\c@framenumber=\count138
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count139
+\beamer@autobreaklastheight=\dimen172
+\beamer@frametitletoks=\toks31
+\beamer@framesubtitletoks=\toks32
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+\beamer@footins=\box44
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box45
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks33
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
+\bmb@temp=\dimen173
+\bmb@dima=\dimen174
+\bmb@dimb=\dimen175
+\bmb@prevheight=\dimen176
+)
+\beamer@blockheadheight=\dimen177
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks34
+)
+\c@figure=\count140
+\c@table=\count141
+\abovecaptionskip=\skip52
+\belowcaptionskip=\skip53
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen178
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen179
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen180
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count142
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count143
+\leftroot@=\count144
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count145
+\DOTSCASE@=\count146
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen181
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count147
+\c@MaxMatrixCols=\count148
+\dotsspace@=\muskip11
+\c@parentequation=\count149
+\dspbrk@lvl=\count150
+\tag@help=\toks36
+\row@=\count151
+\column@=\count152
+\maxfields@=\count153
+\andhelp@=\toks37
+\eqnshift@=\dimen182
+\alignsep@=\dimen183
+\tagshift@=\dimen184
+\tagwidth@=\dimen185
+\totwidth@=\dimen186
+\lineht@=\dimen187
+\@envbody=\toks38
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks40
+\thm@bodyfont=\toks41
+\thm@headfont=\toks42
+\thm@notefont=\toks43
+\thm@headpunct=\toks44
+\thm@preskip=\skip57
+\thm@postskip=\skip58
+\thm@headsep=\skip59
+\dth@everypar=\toks45
+)
+\c@theorem=\count154
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))(load
+ luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-
+regular.luc)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/theme/beamerthemede
+fault.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
+edefault.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emedefault.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emedefault.sty
+\beamer@dima=\dimen188
+\beamer@dimb=\dimen189
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emedefault.sty))) (./beamerthemeFeather.sty
+Package: beamerthemeFeather 2014/04/08 v1.0.0 The Feather Beamer Theme
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box53
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen190
+\pgf@nodesepend=\dimen191
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen192
+\pgffor@skip=\dimen193
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count155
+\pgfplotmarksize=\dimen194
+)
+\tikz@lastx=\dimen195
+\tikz@lasty=\dimen196
+\tikz@lastxsaved=\dimen197
+\tikz@lastysaved=\dimen198
+\tikzleveldistance=\dimen199
+\tikzsiblingdistance=\dimen256
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count156
+\tikznumberofchildren=\count157
+\tikznumberofcurrentchild=\count158
+\tikz@fig@count=\count159
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count160
+\pgfmatrixcurrentcolumn=\count161
+\pgf@matrix@numberofcolumns=\count162
+)
+\tikz@expandcount=\count163
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count164
+\calc@Bcount=\count165
+\calc@Adimen=\dimen257
+\calc@Bdimen=\dimen258
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count166
+\calc@Cskip=\skip62
+)
+(./beamerinnerthemeFeather.sty
+Package: beamerinnerthemeFeather 2014/04/08 v1.0.0 The Feather Beamer Theme
+) (./beamerouterthemeFeather.sty
+Package: beamerouterthemeFeather 2014/04/08 v1.0.0 The Feather Beamer Theme
+\beamer@height=\skip63
+(load luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmsa
+ns12-regular.luc)
+\beamer@logoradius=\skip64
+\beamer@borderwidth=\skip65
+\beamer@logoinnerradius=\skip66
+\beamer@logoouterradius=\skip67
+\beamer@counterradius=\skip68
+) (./beamercolorthemeFeather.sty
+Package: beamercolorthemeFeather 2014/04/08 v1.0.0 The Feather Beamer Theme
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks48
+\inpenc@posthook=\toks49
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.fractals.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen259
+\pgfdecoratedremainingdistance=\dimen260
+\pgfdecoratedinputsegmentcompleteddistance=\dimen261
+\pgfdecoratedinputsegmentremainingdistance=\dimen262
+\pgf@decorate@distancetomove=\dimen263
+\pgf@decorate@repeatstate=\count167
+\pgfdecorationsegmentamplitude=\dimen264
+\pgfdecorationsegmentlength=\dimen265
+)
+\tikz@lib@dec@box=\box58
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.fractals.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen266
+\WF@size=\dimen267
+\c@WF@wrappedlines=\count168
+\WF@box=\box59
+\WF@everypar=\toks50
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/luababel.def
+\l@dumylang=\language1
+\l@nohyphenation=\language2
+\l@german-x-2014-05-21=\language3
+\l@ngerman-x-2014-05-21=\language4
+\l@afrikaans=\language5
+\l@ancientgreek=\language6
+\l@ibycus=\language7
+\l@arabic=\language8
+\l@armenian=\language9
+\l@basque=\language10
+\l@bulgarian=\language11
+\l@catalan=\language12
+\l@pinyin=\language13
+\l@churchslavonic=\language14
+\l@coptic=\language15
+\l@croatian=\language16
+\l@czech=\language17
+\l@danish=\language18
+\l@dutch=\language19
+\l@ukenglish=\language20
+\l@usenglishmax=\language21
+\l@esperanto=\language22
+\l@estonian=\language23
+\l@ethiopic=\language24
+\l@farsi=\language25
+\l@finnish=\language26
+\l@french=\language27
+\l@friulan=\language28
+\l@galician=\language29
+\l@georgian=\language30
+\l@german=\language31
+\l@ngerman=\language32
+\l@swissgerman=\language33
+\l@monogreek=\language34
+\l@greek=\language35
+\l@hungarian=\language36
+\l@icelandic=\language37
+\l@assamese=\language38
+\l@bengali=\language39
+\l@gujarati=\language40
+\l@hindi=\language41
+\l@kannada=\language42
+\l@malayalam=\language43
+\l@marathi=\language44
+\l@oriya=\language45
+\l@panjabi=\language46
+\l@tamil=\language47
+\l@telugu=\language48
+\l@indonesian=\language49
+\l@interlingua=\language50
+\l@irish=\language51
+\l@italian=\language52
+\l@kurmanji=\language53
+\l@latin=\language54
+\l@classiclatin=\language55
+\l@liturgicallatin=\language56
+\l@latvian=\language57
+\l@lithuanian=\language58
+\l@mongolian=\language59
+\l@mongolianlmc=\language60
+\l@bokmal=\language61
+\l@nynorsk=\language62
+\l@occitan=\language63
+\l@piedmontese=\language64
+\l@polish=\language65
+\l@portuguese=\language66
+\l@romanian=\language67
+\l@romansh=\language68
+\l@russian=\language69
+\l@sanskrit=\language70
+\l@serbian=\language71
+\l@serbianc=\language72
+\l@slovak=\language73
+\l@slovenian=\language74
+\l@spanish=\language75
+\l@swedish=\language76
+\l@thai=\language77
+\l@turkish=\language78
+\l@turkmen=\language79
+\l@ukrainian=\language80
+\l@uppersorbian=\language81
+\l@welsh=\language82
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/01/24 v3.3q English support from the babel system
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count169
+\U@D=\dimen268
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/luababel.def)
+LaTeX Info: Redefining \textlatin on input line 1448.
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup6
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/carlisle/slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tex-gyre/tgtermes.sty
+Package: tgtermes 2009/09/27 v1.2 TeX Gyre Termes as default roman family
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
+eprofessionalfonts.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
+eserif.sty) (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/01/28 v6834 L3 programming layer (loader) 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/01/28 v6834 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/12/28 v6805 L3 Bootstrap code
+\ucharcat@table=\catcodetable5
+L3 Module: l3names 2016/12/28 v6805 L3 Namespace for primitives
+L3 Module: l3basics 2016/12/28 v6805 L3 Basic definitions
+L3 Module: l3expan 2016/12/28 v6805 L3 Argument expansion
+L3 Module: l3tl 2016/12/28 v6805 L3 Token lists
+L3 Module: l3str 2017/01/01 v6809 L3 Strings
+L3 Module: l3seq 2016/12/28 v6805 L3 Sequences and stacks
+L3 Module: l3int 2016/12/28 v6805 L3 Integers
+\c_max_int=\count170
+\l_tmpa_int=\count171
+\l_tmpb_int=\count172
+\g_tmpa_int=\count173
+\g_tmpb_int=\count174
+L3 Module: l3quark 2016/12/28 v6805 L3 Quarks
+L3 Module: l3prg 2017/01/01 v6811 L3 Control structures
+\g__prg_map_int=\count175
+L3 Module: l3clist 2016/12/28 v6805 L3 Comma separated lists
+L3 Module: l3token 2016/12/28 v6805 L3 Experimental token manipulation
+L3 Module: l3prop 2016/12/28 v6805 L3 Property lists
+L3 Module: l3msg 2016/12/28 v6805 L3 Messages
+L3 Module: l3file 2016/12/28 v6805 L3 File and I/O operations
+\l_iow_line_count_int=\count176
+\l__iow_target_count_int=\count177
+\l__iow_current_line_int=\count178
+\l__iow_current_word_int=\count179
+\l__iow_current_indentation_int=\count180
+L3 Module: l3skip 2017/01/01 v6809 L3 Dimensions and skips
+\c_zero_dim=\dimen269
+\c_max_dim=\dimen270
+\l_tmpa_dim=\dimen271
+\l_tmpb_dim=\dimen272
+\g_tmpa_dim=\dimen273
+\g_tmpb_dim=\dimen274
+\c_zero_skip=\skip69
+\c_max_skip=\skip70
+\l_tmpa_skip=\skip71
+\l_tmpb_skip=\skip72
+\g_tmpa_skip=\skip73
+\g_tmpb_skip=\skip74
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+L3 Module: l3keys 2017/01/01 v6811 L3 Key-value interfaces
+\l_keys_choice_int=\count181
+L3 Module: l3fp 2016/12/28 v6805 L3 Floating points
+\c__fp_leading_shift_int=\count182
+\c__fp_middle_shift_int=\count183
+\c__fp_trailing_shift_int=\count184
+\c__fp_big_leading_shift_int=\count185
+\c__fp_big_middle_shift_int=\count186
+\c__fp_big_trailing_shift_int=\count187
+\c__fp_Bigg_leading_shift_int=\count188
+\c__fp_Bigg_middle_shift_int=\count189
+\c__fp_Bigg_trailing_shift_int=\count190
+\c__fp_rand_size_int=\count191
+\c__fp_rand_four_int=\count192
+\c__fp_rand_eight_int=\count193
+L3 Module: l3box 2016/12/28 v6805 L3 Experimental boxes
+\c_empty_box=\box60
+\l_tmpa_box=\box61
+\l_tmpb_box=\box62
+\g_tmpa_box=\box63
+\g_tmpb_box=\box64
+L3 Module: l3coffins 2016/12/28 v6805 L3 Coffin code layer
+\l__coffin_internal_box=\box65
+\l__coffin_internal_dim=\dimen275
+\l__coffin_offset_x_dim=\dimen276
+\l__coffin_offset_y_dim=\dimen277
+\l__coffin_x_dim=\dimen278
+\l__coffin_y_dim=\dimen279
+\l__coffin_x_prime_dim=\dimen280
+\l__coffin_y_prime_dim=\dimen281
+\c_empty_coffin=\box66
+\l__coffin_aligned_coffin=\box67
+\l__coffin_aligned_internal_coffin=\box68
+\l_tmpa_coffin=\box69
+\l_tmpb_coffin=\box70
+\l__coffin_display_coffin=\box71
+\l__coffin_display_coord_coffin=\box72
+\l__coffin_display_pole_coffin=\box73
+\l__coffin_display_offset_dim=\dimen282
+\l__coffin_display_x_dim=\dimen283
+\l__coffin_display_y_dim=\dimen284
+L3 Module: l3color 2016/12/28 v6805 L3 Experimental color support
+L3 Module: l3sys 2017/01/01 v6811 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2017/01/01 v6809 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen285
+\l__box_bottom_dim=\dimen286
+\l__box_left_dim=\dimen287
+\l__box_right_dim=\dimen288
+\l__box_top_new_dim=\dimen289
+\l__box_bottom_new_dim=\dimen290
+\l__box_left_new_dim=\dimen291
+\l__box_right_new_dim=\dimen292
+\l__box_internal_box=\box74
+\l__coffin_bounding_shift_dim=\dimen293
+\l__coffin_left_corner_dim=\dimen294
+\l__coffin_right_corner_dim=\dimen295
+\l__coffin_bottom_corner_dim=\dimen296
+\l__coffin_top_corner_dim=\dimen297
+\l__coffin_scaled_total_height_dim=\dimen298
+\l__coffin_scaled_width_dim=\dimen299
+L3 Module: l3luatex 2016/12/28 v6805 L3 Experimental LuaTeX-specific functions
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2016/12/28 v6805 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count194
+\l__driver_tmp_box=\box75
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2017/01/28 v6834 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count195
+\l__xparse_m_args_int=\count196
+\l__xparse_mandatory_args_int=\count197
+\l__xparse_processor_int=\count198
+\l__xparse_v_nesting_int=\count199
+)
+Package: fontspec 2017/01/24 v2.5d Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2017/01/24 v2.5d Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count266
+\l__fontspec_language_int=\count267
+\l__fontspec_strnum_int=\count268
+\l__fontspec_tmp_int=\count269
+\l__fontspec_em_int=\count270
+\l__fontspec_emdef_int=\count271
+\l__fontspec_tmpa_dim=\dimen300
+\l__fontspec_tmpb_dim=\dimen301
+\l__fontspec_tmpc_dim=\dimen302
+\g__file_internal_ior=\read2
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2017/01/24 v2.0c Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 67.
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'O{}mO{}' on line 473.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 489.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 505.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 521.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 526.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 531.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 536.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 541.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 561.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 565.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 572.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 621.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 632.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 640.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 648.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 669.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 686.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 690.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 694.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 699.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 705.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3041.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingAccent with sig. 'mm' on line 3047.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingSymbol with sig. 'mm' on line 3053.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingComposite with sig. 'mmm' on line 3059.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3065.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3090.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareSymbol with sig. 'm' on line 3096.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3104.
+.................................................
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 3289.
+LaTeX Info: Redefining \slshape on input line 3294.
+LaTeX Info: Redefining \scshape on input line 3299.
+LaTeX Info: Redefining \upshape on input line 3304.
+LaTeX Info: Redefining \em on input line 3324.
+LaTeX Info: Redefining \emph on input line 3341.
+(load luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmro
+man10-italic.luc)
+LaTeX Info: Redefining \- on input line 3348.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 3443.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 3447.
+.................................................
+))
+luaotfload | cache : Lookup cache loaded from /usr/local/texlive/2016/texmf-var/
+luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+\g__fontspec_family_LatinModernRoman_int=\count272
+(load luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmro
+man10-bolditalic.luc)(load luc: /usr/local/texlive/2016/texmf-var/luatex-cache/g
+eneric/fonts/otl/lmroman10-bold.luc)
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 21
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 23
+luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 24
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 22
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LatinModernRoman(0)' created for font 'Latin Modern Roman' with
+. options [Ligatures=TeX].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"LatinModernRoman:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (b/n) with NFSS spec.:
+. <->"LatinModernRoman/B:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'bold small caps'  (b/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.:
+. <->"LatinModernRoman/I:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'bold italic' (b/it) with NFSS spec.:
+. <->"LatinModernRoman/BI:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'bold italic small caps'  (b/itsc) with NFSS spec.: 
+.................................................
+LaTeX Info: Redefining \rmfamily on input line 43.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2016/11/18 version 3.96 text color boxes
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks51
+\verbatim@line=\toks52
+\verbatim@in@stream=\read3
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box76
+\tcb@upperbox=\box77
+\tcb@lowerbox=\box78
+\tcb@phantombox=\box79
+\c@tcbbreakpart=\count273
+\c@tcblayer=\count274
+\tcolorbox@number=\count275
+\tcb@temp=\box80
+\tcb@temp=\box81
+\tcb@temp=\box82
+\tcb@temp=\box83
+\tcb@out=\write5
+\tcb@record@out=\write6
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '3.96'
+\tcb@waterbox=\box84
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '3.96'
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '3.96'
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip75
+\multirow@cntb=\count276
+\multirow@dima=\skip76
+\bigstrutjot=\dimen303
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count277
+\cp@tempcnt=\count278
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip77
+\LTright=\skip78
+\LTpre=\skip79
+\LTpost=\skip80
+\LTchunksize=\count279
+\LTcapwidth=\dimen304
+\LT@head=\box85
+\LT@firsthead=\box86
+\LT@foot=\box87
+\LT@lastfoot=\box88
+\LT@cols=\count280
+\LT@rows=\count281
+\c@LT@tables=\count282
+\c@LT@chunks=\count283
+\LT@p@ftn=\toks53
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen305
+\lightrulewidth=\dimen306
+\cmidrulewidth=\dimen307
+\belowrulesep=\dimen308
+\belowbottomsep=\dimen309
+\aboverulesep=\dimen310
+\abovetopsep=\dimen311
+\cmidrulesep=\dimen312
+\cmidrulekern=\dimen313
+\defaultaddspace=\dimen314
+\@cmidla=\count284
+\@cmidlb=\count285
+\@aboverulesep=\dimen315
+\@belowrulesep=\dimen316
+\@thisruleclass=\count286
+\@lastruleclass=\count287
+\@thisrulewidth=\dimen317
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+)
+\AM@pagewidth=\dimen318
+\AM@pageheight=\dimen319
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/ppluatex.def
+File: ppluatex.def 2017/01/14 v0.5h Pdfpages driver for LuaTeX (AM)
+)
+\AM@pagebox=\box89
+\AM@global@opts=\toks54
+\AM@toc@title=\toks55
+\c@AM@survey=\count288
+\AM@templatesizebox=\box90
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/forloop/forloop.sty
+Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
+)
+(./Cherenkov_counters_10122017.aux)
+\openout1 = Cherenkov_counters_10122017.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=307.28987pt
+* \textheight=244.6939pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count289
+\scratchdimen=\dimen320
+\scratchbox=\box91
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen321
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks57
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box92
+Package hyperref Info: Link coloring OFF on input line 134.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count295
+)
+LaTeX Info: Redefining \ref on input line 134.
+LaTeX Info: Redefining \pageref on input line 134.
+LaTeX Info: Redefining \nameref on input line 134.
+
+(./Cherenkov_counters_10122017.out) (./Cherenkov_counters_10122017.out)
+\@outlinefile=\write7
+
+\openout7 = Cherenkov_counters_10122017.out
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-bibliography-dictionary/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-environment-dictionary/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-months-dictionary/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-numbers-dictionary/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-theorem-dictionary/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \includegraphics on input line 134.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(./Cherenkov_counters_10122017.nav)(load luc: /usr/local/texlive/2016/texmf-var/
+luatex-cache/generic/fonts/otl/lmroman6-regular.luc)
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 134.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 134.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 134.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 134.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 134.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 134.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 134.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 134.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 134.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+<Feathergraphics/3.pdf, id=21, 486.81876pt x 485.815pt>
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 134.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 152.
+
+(load luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmro
+man9-regular.luc)(load luc: /usr/local/texlive/2016/texmf-var/luatex-cache/gener
+ic/fonts/otl/lmroman17-regular.luc)(load luc: /usr/local/texlive/2016/texmf-var/
+luatex-cache/generic/fonts/otl/lmroman12-regular.luc)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 152.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 152.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 152.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 152.
+
+Overfull \vbox (26.6073pt too high) detected at line 152
+ []
+
+(load luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmro
+man5-regular.luc) <./Images/SFU_logo.jpg, id=22, 110.814pt x 55.1661pt>
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 152.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 152.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [1
+Missing character: There is no ; (U+003B) in font nullfont!
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+<./Images/SFU_logo.jpg><./Feathergraphics/3.pdf>]
+<./Images/little_duck_swim.jpg, id=44, 2457.18pt x 2456.17625pt>
+File: ./Images/little_duck_swim.jpg Graphic file (type jpg)
+
+<use ./Images/little_duck_swim.jpg>
+Package luatex.def Info: ./Images/little_duck_swim.jpg used on input line 176.
+(luatex.def)             Requested size: 184.35553pt x 107.1876pt.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 176.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 176.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 176.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 176.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 176.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 176.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [2
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/little_duck_swim.jpg>]
+<./Images/cherenkov_rad.png, id=53, 321.3606pt x 193.6836pt>
+File: ./Images/cherenkov_rad.png Graphic file (type png)
+
+<use ./Images/cherenkov_rad.png>
+Package luatex.def Info: ./Images/cherenkov_rad.png used on input line 200.
+(luatex.def)             Requested size: 107.55333pt x 64.82011pt.
+(load luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmro
+man8-regular.luc)
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 200.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 200.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [3
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/cherenkov_rad.png>]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 215.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 215.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [4
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 235.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 235.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [5
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 253.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 253.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [6
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+<./Images/cherenkov_angle_vs_beta.pdf, id=82, 725.63559pt x 378.4992pt>
+File: ./Images/cherenkov_angle_vs_beta.pdf Graphic file (type pdf)
+
+<use ./Images/cherenkov_angle_vs_beta.pdf>
+Package luatex.def Info: ./Images/cherenkov_angle_vs_beta.pdf used on input line
+ 264.
+(luatex.def)             Requested size: 215.10144pt x 107.19766pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 264.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 264.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [7
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/cherenkov_angle_vs_beta.pdf>]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 280.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 280.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [8
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 300.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 300.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [9
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 319.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 319.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [10
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 343.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 343.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 343.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 343.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [11
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 365.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 365.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [12
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 386.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 386.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [13
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 401.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 401.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [14
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+Overfull \vbox (1.8984pt too high) detected at line 423
+ []
+
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 423.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 423.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [15
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+<./Images/gas_radiators.pdf, id=166, 467.25322pt x 248.68889pt>
+File: ./Images/gas_radiators.pdf Graphic file (type pdf)
+
+<use ./Images/gas_radiators.pdf>
+Package luatex.def Info: ./Images/gas_radiators.pdf used on input line 449.
+(luatex.def)             Requested size: 245.83208pt x 160.79964pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 449.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 449.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [16
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/gas_radiators.pdf>]
+<./Images/threshold_gas_Cherenkov_detector.png, id=232, 429.605pt x 208.78pt>
+File: ./Images/threshold_gas_Cherenkov_detector.png Graphic file (type png)
+
+<use ./Images/threshold_gas_Cherenkov_detector.png>
+Package luatex.def Info: ./Images/threshold_gas_Cherenkov_detector.png used on i
+nput line 465.
+(luatex.def)             Requested size: 215.1035pt x 80.40125pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 465.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 465.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [17
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/threshold_gas_Cherenkov_detector.png>]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 478.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 478.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [18
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+<./Images/threshold_detector_eff.pdf, id=243, 287.2207pt x 93.62471pt>
+File: ./Images/threshold_detector_eff.pdf Graphic file (type pdf)
+
+<use ./Images/threshold_detector_eff.pdf>
+Package luatex.def Info: ./Images/threshold_detector_eff.pdf used on input line 
+500.
+(luatex.def)             Requested size: 245.83043pt x 67.00543pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 500.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 500.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [19
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/threshold_detector_eff.pdf>]
+Overfull \vbox (7.45004pt too high) detected at line 522
+ []
+
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 522.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 522.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [20
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+<./Images/Belle_detector_01.jpg, id=312, 746.01291pt x 559.50967pt>
+File: ./Images/Belle_detector_01.jpg Graphic file (type jpg)
+
+<use ./Images/Belle_detector_01.jpg>
+Package luatex.def Info: ./Images/Belle_detector_01.jpg used on input line 535.
+(luatex.def)             Requested size: 215.09743pt x 120.59958pt.
+
+<./Images/Belle_detector_02.pdf, id=313, 654.86484pt x 225.23047pt>
+File: ./Images/Belle_detector_02.pdf Graphic file (type pdf)
+
+<use ./Images/Belle_detector_02.pdf>
+Package luatex.def Info: ./Images/Belle_detector_02.pdf used on input line 535.
+(luatex.def)             Requested size: 215.09683pt x 93.80226pt.
+
+Overfull \vbox (39.0822pt too high) detected at line 535
+ []
+
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 535.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 535.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [21
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/Belle_detector_01.jpg><./Images/Belle_detector_02.pdf>]
+<./Images/differential_cherenkov_detectors.pdf, id=372, 465.23962pt x 215.71692
+pt>
+File: ./Images/differential_cherenkov_detectors.pdf Graphic file (type pdf)
+ <use ./Images/differential_cherenkov_detectors.pdf>
+Package luatex.def Info: ./Images/differential_cherenkov_detectors.pdf used on i
+nput line 559.
+(luatex.def)             Requested size: 153.64493pt x 71.23946pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 559.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 559.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [22
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/differential_cherenkov_detectors.pdf>]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 577.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 577.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [23
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+<./Images/differential_cherenkov_detectors_02.pdf, id=424, 309.58911pt x 277.62
+09pt>
+File: ./Images/differential_cherenkov_detectors_02.pdf Graphic file (type pdf)
+ <use ./Images/differential_cherenkov_detectors_02.pdf>
+Package luatex.def Info: ./Images/differential_cherenkov_detectors_02.pdf used o
+n input line 592.
+(luatex.def)             Requested size: 138.2795pt x 124.00476pt.
+
+<./Images/differential_cherenkov_detectors_03.pdf, id=425, 252.07564pt x 269.94
+421pt>
+File: ./Images/differential_cherenkov_detectors_03.pdf Graphic file (type pdf)
+ <use ./Images/differential_cherenkov_detectors_03.pdf>
+Package luatex.def Info: ./Images/differential_cherenkov_detectors_03.pdf used o
+n input line 592.
+(luatex.def)             Requested size: 138.2795pt x 148.0867pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 592.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 592.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [24
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/differential_cherenkov_detectors_02.pdf><./Images/differential_cherenk
+ov_detectors_03.pdf>] <./Images/RICH_counters_02.pdf, id=548, 206.67584pt x 133
+.69269pt>
+File: ./Images/RICH_counters_02.pdf Graphic file (type pdf)
+
+<use ./Images/RICH_counters_02.pdf>
+Package luatex.def Info: ./Images/RICH_counters_02.pdf used on input line 617.
+(luatex.def)             Requested size: 169.01036pt x 109.32883pt.
+
+Overfull \hbox (19.91696pt too wide) detected at line 617
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \vbox (11.56639pt too high) detected at line 617
+ []
+
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 617.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 617.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [25
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/RICH_counters_02.pdf>]
+Overfull \vbox (13.25755pt too high) detected at line 662
+ []
+
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 662.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 662.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [26
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+<./Images/RICH_counters_03.pdf, id=623, 192.91753pt x 270.00615pt>
+File: ./Images/RICH_counters_03.pdf Graphic file (type pdf)
+
+<use ./Images/RICH_counters_03.pdf>
+Package luatex.def Info: ./Images/RICH_counters_03.pdf used on input line 688.
+(luatex.def)             Requested size: 121.68587pt x 104.47797pt.
+
+Overfull \vbox (19.6914pt too high) detected at line 688
+ []
+
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 688.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 688.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [27
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/RICH_counters_03.pdf>] <./Images/RICH_counters_04.png, id=674, 760.84
+25pt x 418.56375pt>
+File: ./Images/RICH_counters_04.png Graphic file (type png)
+
+<use ./Images/RICH_counters_04.png>
+Package luatex.def Info: ./Images/RICH_counters_04.png used on input line 704.
+(luatex.def)             Requested size: 245.8313pt x 107.19537pt.
+
+Overfull \vbox (0.54097pt too high) detected at line 704
+ []
+
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 704.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 704.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [28
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/RICH_counters_04.png>]
+<./Images/RICH_counters_05.pdf, id=681, 522.21588pt x 239.92035pt>
+File: ./Images/RICH_counters_05.pdf Graphic file (type pdf)
+
+<use ./Images/RICH_counters_05.pdf>
+Package luatex.def Info: ./Images/RICH_counters_05.pdf used on input line 710.
+(luatex.def)             Requested size: 291.93689pt x 160.80803pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 710.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 710.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [29
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/RICH_counters_05.pdf>]
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 732.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 732.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [30
+Missing character: There is no ; (U+003B) in font nullfont!
+
+]
+<./Images/TRD_10.pdf, id=743, 249.50163pt x 258.0554pt>
+File: ./Images/TRD_10.pdf Graphic file (type pdf)
+
+<use ./Images/TRD_10.pdf>
+Package luatex.def Info: ./Images/TRD_10.pdf used on input line 755.
+(luatex.def)             Requested size: 122.91406pt x 127.12552pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 755.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 755.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [31
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/TRD_10.pdf>]
+<./Images/TRD_11.pdf, id=863, 279.19557pt x 388.1154pt>
+File: ./Images/TRD_11.pdf Graphic file (type pdf)
+
+<use ./Images/TRD_11.pdf>
+Package luatex.def Info: ./Images/TRD_11.pdf used on input line 774.
+(luatex.def)             Requested size: 138.2795pt x 192.22726pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 774.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 774.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [32
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/TRD_11.pdf>]
+<./Images/TRD_12.pdf, id=954, 240.23582pt x 326.37494pt>
+File: ./Images/TRD_12.pdf Graphic file (type pdf)
+
+<use ./Images/TRD_12.pdf>
+Package luatex.def Info: ./Images/TRD_12.pdf used on input line 795.
+(luatex.def)             Requested size: 122.91406pt x 166.98189pt.
+
+Overfull \vbox (3.9014pt too high) detected at line 795
+ []
+
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+<use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 795.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+ <use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 795.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [33
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/TRD_12.pdf>] <./Images/TRD_01.png, id=1070, 999.735pt x 811.03pt>
+File: ./Images/TRD_01.png Graphic file (type png)
+
+<use ./Images/TRD_01.png>
+Package luatex.def Info: ./Images/TRD_01.png used on input line 815.
+(luatex.def)             Requested size: 184.3684pt x 107.19489pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 815.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 815.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [34
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/TRD_01.png>]
+<./Images/TRD_02.png, id=1076, 314.17375pt x 332.24126pt>
+File: ./Images/TRD_02.png Graphic file (type png)
+
+<use ./Images/TRD_02.png>
+Package luatex.def Info: ./Images/TRD_02.png used on input line 840.
+(luatex.def)             Requested size: 122.91406pt x 129.97913pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 840.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 840.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [35
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/TRD_02.png>]
+<./Images/TRD_03.pdf, id=1083, 257.13466pt x 243.51176pt>
+File: ./Images/TRD_03.pdf Graphic file (type pdf)
+
+<use ./Images/TRD_03.pdf>
+Package luatex.def Info: ./Images/TRD_03.pdf used on input line 850.
+(luatex.def)             Requested size: 184.37956pt x 107.19751pt.
+File: ./Images/SFU_logo.jpg Graphic file (type jpg)
+ <use ./Images/SFU_logo.jpg>
+Package luatex.def Info: ./Images/SFU_logo.jpg used on input line 850.
+(luatex.def)             Requested size: 22.1624pt x 11.03302pt.
+File: Feathergraphics/3.pdf Graphic file (type pdf)
+
+<use Feathergraphics/3.pdf>
+Package luatex.def Info: Feathergraphics/3.pdf used on input line 850.
+(luatex.def)             Requested size: 37.40611pt x 37.3241pt.
+ [36
+Missing character: There is no ; (U+003B) in font nullfont!
+
+<./Images/TRD_03.pdf>]
+\tf@nav=\write8
+
+\openout8 = Cherenkov_counters_10122017.nav
+\tf@toc=\write9
+
+\openout9 = Cherenkov_counters_10122017.toc
+\tf@snm=\write10
+
+\openout10 = Cherenkov_counters_10122017.snm
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 866.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 866.
+
+(./Cherenkov_counters_10122017.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 866.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 866.
+
+
+Package rerunfilecheck Warning: File `Cherenkov_counters_10122017.out' has chang
+ed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Cherenkov_counters_10122017.out':
+(rerunfilecheck)             Before: C74CBD8F9B5EF3EDDA12E008CF00FF25;115
+(rerunfilecheck)             After:  E169AC996DE7B68DF95EE189117096F8;115.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 35517 strings out of 494592
+ 100000,953878 words of node,token memory allocated
+ 14254 words of node memory still in use:
+   61 hlist, 8 vlist, 4 rule, 21 disc, 5 local_par, 2 math, 1275 glue, 8 kern, 1
+7 penalty, 176 glyph, 601 attribute, 56 glue_spec, 601 attribute_list, 3 write, 
+133 pdf_literal, 20 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore n
+odes
+   avail lists: 2:686,3:448,4:125,5:178,6:1955,7:379,8:48,9:353,10:17,11:184
+ 37287 multiletter control sequences out of 65536+600000
+ 159 fonts using 10766239 bytes
+ 60i,17n,87p,792b,930s stack positions out of 5000i,500n,10000p,200000b,100000s
+
+warning  (pdf backend): unreferenced destination with name 'Outline0.1.1.4'
+</usr/local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.ot
+f>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/te
+xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/te
+xlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/local/
+texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/loc
+al/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/
+local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Cherenkov_counters_10122017.pdf (36 pages, 4123646 bytes).
+
+PDF statistics: 1211 PDF objects out of 1440 (max. 8388607)
+ 895 compressed objects within 9 object streams
+ 76 named destinations out of 1000 (max. 131072)
+ 32 words of extra memory for PDF output out of 10000 (max. 10000000)
+

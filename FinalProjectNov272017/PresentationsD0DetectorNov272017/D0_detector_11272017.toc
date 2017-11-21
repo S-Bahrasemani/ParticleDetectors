@@ -1,0 +1,27 @@
+\select@language {english}
+\beamer@sectionintoc {1}{D$\emptyset $ experiment}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Overview}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Experiment goals}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Design considerations}{6}{0}{1}
+\beamer@sectionintoc {2}{Central tracking}{21}{0}{2}
+\beamer@subsectionintoc {2}{1}{Silicon microstrip tracker}{21}{0}{2}
+\beamer@subsectionintoc {2}{2}{Central fiber tracker}{33}{0}{2}
+\beamer@sectionintoc {3}{Solenoidal magnet}{33}{0}{3}
+\beamer@subsectionintoc {3}{1}{Magnet construction}{33}{0}{3}
+\beamer@subsectionintoc {3}{2}{Magnet cryostat}{33}{0}{3}
+\beamer@subsectionintoc {3}{3}{Magnet energization and control}{33}{0}{3}
+\beamer@subsectionintoc {3}{4}{Magnetic field}{33}{0}{3}
+\beamer@sectionintoc {4}{Preshower detectors}{33}{0}{4}
+\beamer@subsectionintoc {4}{1}{Central preshower detector}{33}{0}{4}
+\beamer@subsectionintoc {4}{2}{Forward preshower detector}{33}{0}{4}
+\beamer@sectionintoc {5}{Calorimetry}{33}{0}{5}
+\beamer@subsectionintoc {5}{1}{Calorimeters}{33}{0}{5}
+\beamer@subsectionintoc {5}{2}{Calorimeter electronics}{33}{0}{5}
+\beamer@subsectionintoc {5}{3}{Intercryostat detector and massless gaps}{33}{0}{5}
+\beamer@sectionintoc {6}{Muon system}{33}{0}{6}
+\beamer@subsectionintoc {6}{1}{Toroidal magnets}{33}{0}{6}
+\beamer@subsectionintoc {6}{2}{Central muon detector}{33}{0}{6}
+\beamer@subsectionintoc {6}{3}{Forward muon system}{33}{0}{6}
+\beamer@sectionintoc {7}{Forward proton detector}{33}{0}{7}
+\beamer@sectionintoc {8}{Luminosity monitor}{33}{0}{8}
+\beamer@sectionintoc {9}{Triggering}{33}{0}{9}

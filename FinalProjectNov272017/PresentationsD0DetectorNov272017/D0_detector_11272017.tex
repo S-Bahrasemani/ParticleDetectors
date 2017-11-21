@@ -1,0 +1,230 @@
+\PassOptionsToPackage{table, dvipsnames}{xcolor}
+\documentclass[11pt]{beamer} %%
+
+%%% option passed to the outer theme
+% fixedCircCnt,   % (moving is deault)
+\usetheme[progressstyle=movingCircCnt]{Feather}
+
+
+%%xcolor=dvipsnames,
+%-------------------------------------------------------
+% INCLUDE PACKAGES
+%-------------------------------------------------------
+
+\usepackage[utf8]{inputenc} 
+\usepackage[english]{babel}
+
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{decorations.fractals, spy, intersections, calc}
+
+\usepackage{braket}
+
+\usepackage{mathpazo} 
+\usepackage{amsmath, amsthm, amssymb}
+
+\usepackage{amsfonts}
+%\usepackage{mathrsfs}
+\usepackage{slashed} % Dirac slash
+\usepackage{pifont}
+\usepackage{caption}
+
+%%%% multimedia
+%%\usepackage{multimedia}
+%%\usepackage{hyperref}
+
+
+%%%% fonts
+\usepackage{tgtermes}
+%% change font of the document 
+%\renewcommand*{\familydefault }{\mrdefault}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usefonttheme{serif} % default family is serif
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+
+%%%% colors
+% Change the frame title text color:
+\setbeamercolor{frametitle}{fg=BurntOrange}
+% Change the normal text color background:
+\setbeamercolor{normal text}{fg=black,bg=white}
+%%% color equations 
+\usepackage[skins,theorems]{tcolorbox}
+\tcbset{highlight math style={enhanced,
+  colframe=red,colback=white,arc=0pt,boxrule=1pt}}
+
+%%%% colourful equation box
+\tcbset{highlight math style={enhanced,
+  colframe=red,colback=white,arc=0pt,boxrule=1pt}}
+\newcommand{\eqbox}[3]
+           {
+             \tcbhighmath[boxrule=2pt,arc=1pt,colback=#1!10!white,colframe=#2!40,
+               drop fuzzy shadow=white] {#3}
+           }
+
+%%%%  tables
+%%\usepackage[landscape]{geometry}
+\usepackage{multirow}
+\usepackage{changepage}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+%% for pdf input
+\usepackage{pdfpages}
+\usepackage{forloop}
+
+%%%% set footers
+\setbeamertemplate{footline}[text line]{%
+  \parbox{0.3\linewidth}{\vspace*{-5pt}\hspace*{0.5cm}
+    \textcolor{BurntOrange}{{-- D$\emptyset$ Detector}}}\hfill
+  \parbox{0.4\linewidth}{\vspace*{-5pt}\hspace*{1.cm}
+    \textcolor{BurntOrange}{{ -- Sina Bahrasemani --}}}\hfill
+  \parbox{0.3\linewidth}{\vspace*{-5pt}\hspace*{1.5cm}
+    \textcolor{BurntOrange}{{Fall 2017 --}}}\hfill
+}
+%%\setbeamertemplate{footline}[page number]
+
+% colored hyperlinks
+\newcommand{\chref}[2]
+           {
+             \href{#1}{{\usebeamercolor[bg]{Feather}#2}}
+           }
+
+%%%% few extra commands
+\renewcommand{\(}{\begin{columns}}
+\renewcommand{\)}{\end{columns}}
+\newcommand{\<}[1]{\begin{column}{#1}}
+\renewcommand{\>}{\end{column}}
+
+\newcommand{\itt}{\begin{itemize}}
+\newcommand{\tti}{\end{itemize}}
+
+\newcommand{\img}[1]{\includegraphics[width=\linewidth]{./Images/#1}}
+
+\newcommand{\hlt}[2]{\textcolor{#1}{\textbf{#2}}}
+\newcommand{\ntit}[1]{\qquad\qquad\qquad\qquad\hlt{blue}{\Large #1}\\~\\}
+%% \newcommand{\hlt1}[1]{\textcolor{Goldenrod}{\textbf{#1}}}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\done}
+           {
+             \rlap{$\square$}
+                  {\raisebox{2pt}
+                    {
+                      \large\hspace{0.1pt}
+                      \textcolor{green}{\cmark}
+                    }
+                  }
+                  \hspace{-2.5pt}
+           }
+
+           
+%%% counting backup slides
+\newcommand{\beginbackup}
+           {
+             \newcounter{framenumbervorappendix}
+             \setcounter{framenumbervorappendix}{\value{framenumber}}
+           }
+\newcommand{\backupend}
+           {
+             \addtocounter{framenumbervorappendix}{-\value{framenumber}}
+             \addtocounter{framenumber}{\value{framenumbervorappendix}} 
+           }
+
+%%%% Loading packages DONE!
+%\logo{\includegraphics[scale = 0.2]{./Images/SFU_logo.jpg}}
+
+
+%%%% user libs 
+\input{graphics_helpers.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% DOCUMENT STARTS HERE
+\begin{document}
+\setbeamercovered{transparent}
+
+%%%% SLIDE 1: title page
+\begin{frame}
+	\vspace{0.9cm}
+
+\title[]{Neutrino Detectors}
+\author{Sina Bahrasemani\\
+  \vspace{0.2in}
+}
+\date{
+  \begin{tikzpicture}[decoration=Koch curve type 1] 
+    \draw[Magenta] decorate{ decorate{ decorate{ (0,0) -- (2,0) }}}; 
+  \end{tikzpicture}  
+  \\
+  \vspace{0.2cm}
+  \today
+}
+\titlepage
+\end{frame}
+
+%%%%%%%% SLIDE 2: outline page
+\begin{frame}{Outline}
+\small
+\tableofcontents[hideallsubsections]
+
+\end{frame}
+
+%%%%%%% LOAD section files here
+% % % \section{D$\emptyset$ detector}
+% % % \section{Central detector}
+% % % \section{Solenoidal magnet}
+% % % \section{Preshower detectors}
+% % % \section{Calorimetry}
+% % % \section{Muon system}
+% % % \section{Forward proton detector}
+% % % \section{Luminosity monitor}
+% % % \section{Triggering}
+
+\foreach \index in {1, ..., 9}{
+  \input{section0\index.tex}\par
+}
+
+
+
+%%%%%% SLIDE
+\begin{frame}{\textcolor{Goldenrod}{Title }}
+  \begin{overlayarea}{\textwidth}{\textheight}
+    \begin{figure}[h]
+      \centering
+      %\includegraphics[height=0.4\textheight]{./Images/}
+    \end{figure}
+    
+    \itt[<+->]
+  \item item
+    \tti
+  \end{overlayarea}
+\end{frame}
+
+%%%%%% SLIDE
+\begin{frame}{\textcolor{Goldenrod}{Title}}
+  \(
+  \<{0.6\textwidth}
+  \itt[<+->]
+\item item 
+  \tti
+  \>
+  
+  \<{0.4\textwidth}
+  % \img{}
+  \>
+  \)
+\end{frame}
+
+%%%%%%%%% SLIDE
+% \begin{frame}{\textcolor{Goldenrod}{Title }}
+%   \begin{figure} \centering
+%     %%%% figure manipulation 
+%     \begin{tikzpicture}[zoomboxarray,connect zoomboxes, zoombox paths/.append style={ultra thick, red}]
+%       \node [image node, help grid]
+%       { \includegraphics[width=0.45\textwidth]{./Images/01_dzero_wholedetector.pdf}};
+%       \onslide<2->\zoombox[magnification=5,color code=lime]{0.86,0.35}
+%     \end{tikzpicture}
+%   \end{figure}
+% \end{frame}  
+\end{document}
