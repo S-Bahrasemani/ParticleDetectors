@@ -4,27 +4,20 @@
 \subsection{Silicon microstrip tracker}
 
 %%%%%% SLIDE
-\begin{frame}{\textcolor{Goldenrod}{Silicon Microstrip Tracker}}
+\begin{frame}{\textcolor{Goldenrod}{Central Tracker}}
   \begin{overlayarea}{\textwidth}{\textheight}
     \begin{figure}[h]
       \centering
-      \includegraphics[height=0.5\textheight]{./Images/08_CT}
+      \includegraphics[height=0.4\textheight]{./Images/08_CT.pdf}
     \end{figure}
-
-    \itt[<only@+>]
+    
+    \itt[<+->]
   \item
-    A silicon microstrip tracker (SMT) and a central fiber tracker
-    (CFT) surrounded by a solenoidal magnet
-
-  \item
-    the primary interaction vertex resolution of about $35 \mu m $
-    along the beamline $\to$ \alert{ good measurement of lepton $p_T$, jet
-      transverse energy ($E_T$ ), and missing transverse energy
-      $\slashed{E_T}$. }\\
-    \textcolor{blue}{{\small b-quark jets tagging with an impact parameter resolution of better
-      than $15 \mu m$ in $r-phi$}}
-    \note{for particles with transverse momentum $p_T
-      > 10 GeV/c$ at $\eta = 0$.}
+    A Silicon Microstrip Tracker (SMT) and a Central Fiber Tracker
+    (CFT) within a solenoidal magnet
+  \item Excellent resolution; $\sigma_{d_0} \approx 15 \mu m, 
+    \sigma_{z_0}\approx 35\mu m$:\\
+    \hlt{Magenta}{good $p^{lep/jet}_{T} $ and $\slashed{E_T}$ measurement}
     \tti
   \end{overlayarea}
 \end{frame}
@@ -33,153 +26,172 @@
 %%%%%% SLIDE
 \begin{frame}{\textcolor{Goldenrod}{Silicon Microstrip Tracker}}
   \begin{overlayarea}{\textwidth}{\textheight}
-    \begin{figure}[h]
-      \centering
-      \includegraphics[height=0.4\textheight]{./Images/09_SMT}
+    \begin{figure}[h]\centering
+      \includegraphics[height=0.3\textheight,width=0.5\textwidth]{./Images/09_SMT_03}
+      \includegraphics[height=0.3\textheight,width=0.5\textwidth]{./Images/09_SMT}
+      % \includegraphics[height=0.3\textheight,width=0.5\textwidth]{./Images/09_SMT}
     \end{figure}
-
-    \itt[<only@+>]
-  \item
     
- \item The SMT provides both tracking and vertexing over nearly the
-   full $\eta$ coverage of the calorimeter and muon systems.
-   
- \item The barrel detectors primarily measure the $r-phi$ coordinate and
-   the disk detectors measure $r-z$ as well as $r-\phi$.
-
-   
- \note{Sensor ladder assemblies were designed for low mass, pre- cise
-   alignment, and good thermal performance. With the exception of the
-   DSDM ladders, which use a single 12-cm sensor, ladders were
-   constructed us- ing two 6-cm sensors.}
- 
- \note{The SMT uses a combination of single-sided (SS), double-sided
-   (DS), and double-sided double-metal (DSDM) technologies.}
- 
- \note{The detector has six barrels in the central region. Each barrel
-   has four silicon readout layers. The silicon modules installed in
-   the barrels are called “ladders.” Layers 1 and 2 have twelve
-   ladders each; layers 3 and 4 have twenty-four ladders each, for a
-   total of 432 ladders.}
- 
- \note{There are 144 F-wedges and 96 full H-wedges in the tracker;
-   each side of a wedge (upstream and downstream) is read out
-   independently. There is a grand total of 912 readout modules, with
-   792,576 channels.}
- \tti
+    \itt[<+->]
+  \item The barrel gives $(r, \phi)$ coordinate and disks give $(r,
+    \phi, z)$.
+  \item \hlt{black}{Design considerations:}\\ minimal mass, precise
+    alignment, good thermal performance and front-end electronics.
+  \item \hlt{Orange}{Unit cell:}\\ rectangular beryllium substrates with $1/2$
+    silicon surfaces glued to them and a laminated readout chip.
+    \tti
 \end{overlayarea}
 \end{frame}
-
 %%%%%% SLIDE
-\begin{frame}{\textcolor{Goldenrod}{Silicon Microstrip Tracker: Operation}}
+\begin{frame}{\textcolor{Goldenrod}{Silicon Microstrip Tracker}}
   \begin{overlayarea}{\textwidth}{\textheight}
     \begin{figure}[h]
       \centering
-      \includegraphics[height=0.4\textheight,
-      width=0.45\textwidth]{./Images/11_SMT}
-      \includegraphics[height=0.4\textheight,
-      width=0.45\textwidth]{./Images/12_SMT}
-      \caption*{left: grassy noise seen in the Micron-supplied F-disk
-        detectors. right: energy loss for a $K$-enriched sample of
-        tracks showing $\pi$, $K$, and proton bands.}
+      \includegraphics[height=0.34\textheight]{./Images/09_SMT_01}
+      \includegraphics[height=0.34\textheight]{./Images/09_SMT_04}
+      \caption*{{\small Cross section of the SMT disk/barrel module showing
+            ladders mounted on the beryllium bulkhead, sample cable paths,
+            three of twelve F-disk wedges, carbon fiber support structure,
+            and the low-mass cable stack.}}
+      \end{figure}
+    \itt
+    \item \textcolor{blue}{SMT support structure:\\}
+      two double-walled carbon
+      fiber cylinder.
+    \tti
+\end{overlayarea}
+\end{frame}
+
+
+%%%%%%%% SLIDE
+\begin{frame}{\textcolor{Goldenrod}{Silicon Microstrip Tracker: Performance }}
+  \begin{overlayarea}{\textwidth}{\textheight}
+    \begin{figure}[h]
+      \centering
+      \includegraphics[height=0.35\textheight,width=0.3\textwidth]{./Images/11_SMT_01}
+      \includegraphics[height=0.35\textheight,width=0.3\textwidth]{./Images/12_SMT_01}
+      \includegraphics[height=0.35\textheight,width=0.4\textwidth]{./Images/12_SMT_02}
       
     \end{figure}
-    \itt[<only@+>]  
+    \itt[<+->]  
+  \item The signal-to-noise ratio is between $10$ and $15$
+    depending on the module type
+    \note{The signal is defined as the cluster
+      charge given by a minimum ionizing particle including a
+      correction for the incident angle, and the noise as the rms of the
+      pedestal distributions.}
+  \item $\sigma_{d_0} \approx 60 \mu m$ to which the beam size itself
+    contributes $30$ to $40 \mu m$
+  \item \alert{using both the hits in the SMT and CFT $\to$ much better
+      resolution $\sigma_{d_0} \approx 15 \mu m$}
+    \tti
     
-\item during run II $\approx 90$\% of sensors were functional
+% \item during run II $\approx 90$\% of sensors were functional
   
-\item most operational difficulties have been peripheral to the
-  silicon detector itself. These include latchup of operational
-  amplifiers on the interface boards, low voltage power supply
-  failures, and high leakage currents in high voltage distribution
-  boxes.
+% \item most operational difficulties have been peripheral to the
+%   silicon detector itself. These include latchup of operational
+%   amplifiers on the interface boards, low voltage power supply
+%   failures, and high leakage currents in high voltage distribution
+%   boxes.
   
-  \note{\url{https://en.wikipedia.org/wiki/Latch-up}}
+%   \note{\url{https://en.wikipedia.org/wiki/Latch-up}}
   
-\item the most serious detector feature is “grassy noise,”
-  which is confined to the Micron-supplied F-disk
-  detectors ($75$\% of the F-disk sensors). This noise is characterized
-  by large charge spikes which cover $10–20$ strips and
-  occur in about $20$\% of the events for affected
-  devices.
+% \item the most serious detector feature is “grassy noise,”
+%   which is confined to the Micron-supplied F-disk
+%   detectors ($75$\% of the F-disk sensors). This noise is characterized
+%   by large charge spikes which cover $10–20$ strips and
+%   occur in about $20$\% of the events for affected
+%   devices.
   
-\item leakage currents typically rise to
-  greater than $100 \mu A$ within one hour of turn-on at
-  the beginning of a store.
+% \item leakage currents typically rise to
+%   greater than $100 \mu A$ within one hour of turn-on at
+%   the beginning of a store.
   
-\item Alignment and calibration Signal/noise performance varies with
-  detector type from $12:1 to 18:1$.
+% \item Alignment and calibration Signal/noise performance varies with
+%   detector type from $12:1 to 18:1$.
   
-\item Coherent noise is typically one-third
-  of the random noise.
+% \item Coherent noise is typically one-third
+%   of the random noise.
   
-\item Gains vary among detector types
-  with the n-sides $5–15$\% lower than the p-sides due to the larger load
-  capacitance.
-  \tti
+% \item Gains vary among detector types
+%   with the n-sides $5–15$\% lower than the p-sides due to the larger load
+%   capacitance.
   
 \end{overlayarea}
 \end{frame}
 
 
 \subsection{Central fiber tracker}
-
-
 %%%%%% SLIDE
 \begin{frame}{\textcolor{Goldenrod}{Central Fiber Tracker}}
   \begin{overlayarea}{\textwidth}{\textheight}
     \begin{figure}[h]\centering
-      \includegraphics[height=0.3\textheight]{./Images/13_CFT}
+      \includegraphics[height=0.4\textheight,width=0.7\textwidth]{./Images/08_CT_01.pdf}
+      \includegraphics[height=0.1\textheight, width=0.2\textwidth]{./Images/15_CFT}
     \end{figure}
     \itt[<+->]  
-
+    
     \note{scintillating fibers mounted on eight concentric
       support cylinders ($20 to 52 cm$ from
       the center of the beampipe. The
       two innermost cylinders are $1.66 m$ long; the outer six cylinders are
       $2.52 m$ long.}
-      
+    
     \note{ Each cylinder supports one doublet layer of fibers oriented
       along the beam direction and a second doublet layer at a
       stereo angle in $\phi$ of $+3^{\textdegree}$.}
     
-    \item 8 coaxial carbon cylinders, each supporting 2 doublet layers
-      on their outside surface
-    \item 8 axial layers are formed by fibers oriented along the
-      cylinder
-    \item 4 stereo layers are formed by fibers oriented at $+3^{\textdegree}$ and 4 stereo
-      layers at $-3^{\textdegree}$
-    \item Position resolution of fiber doublet is $\approx 100 \mu m$
-      \tti
-\end{overlayarea}
-\end{frame}
-
-%%%%%% SLIDE
-\begin{frame}{\textcolor{Goldenrod}{Central Fiber Tracker: fibers}}
-  \begin{overlayarea}{\textwidth}{\textheight}
-    \begin{figure}[h]\centering
-      \includegraphics[height=0.3\textheight, width=0.6\textwidth]{./Images/15_CFT}
-      \includegraphics[height=0.3\textheight, width=0.3\textwidth]{./Images/16_CFT}
-    \end{figure}
-    \itt[<only@+>]
-
-  \item  $d = 835 \mu m \times h =1.66/2.52 m$ scintillation fibers are 
-    connected to clear fiber waveguides of identical diameter ($7.8 to 11.9 m$ long)
-    
-  \item light production: The base core material is polystyrene (PS). The PS is
-    doped with the organic fluorescent dye paraterphenyl (pT) to
-    about 1\% by weight.
-  \item excitations in the PS are rapidly transferred to the pT via a
-    non-radiative dipole-dipole interaction.
-    
-  \item a 3-hydroxyflavone (3HF) wave-shifter, is used to
-    transmit the $340 nm \to 530 nm$
-  \item The scintillating fibers were assembled into ribbons
-    consisting of 256 fibers in two layers of 128 fibers each.
+  \item $76800$ fibers: made of polystyrene (PS), \it{paraterphenyl (PT) $1$\%, and
+      3-hydroxyflavone (3HF)$0.15$\%}; $d = 835 \mu m \times h =1.66/2.52 m$
+  \item 8 coaxial carbon cylinders, each supporting 2 doublet layers
+    of fibers
+    ($0^{\textdegree}$ and $\pm 3^{\textdegree}$)
     \tti
   \end{overlayarea}
 \end{frame}
 
+%%%%%% SLIDE
+\begin{frame}{\textcolor{Goldenrod}{Central Fiber Tracker: VLPC}}
+  \(
+  \<{0.3\textwidth}
+  \img{21_CFT_VLPC.jpg}\\
+  %\img{21_CFT_VLPC_01.jpg}\\
+  \img{21_CFT_VLPC_02.jpg}\\
+  \>
+  \<{0.7\textwidth}
+  \itt[<+->]
+
+  \item The fibres are connected by $7-11 m$ long optical waveguides to
+    photodetectors positioned in a cryostat underneath the central
+    calorimeter
+  \item light collectors are Visible Light Photon Counters (VLPCs),
+    which are arsenic doped silicon diodes operating at temperatures
+    of $10 K$
+
+  \item The VLPCs have quantum efficiencies of $\approx 80$\%, high gain and less
+    than $0.1$\% average noise
+  \item The axial fibre layers are used in the Level 1 trigger system
+  \tti
+  \>
+  \)
+\end{frame}
+
+
+%%%%%% SLIDE
+\begin{frame}{\textcolor{Goldenrod}{Central Fiber Tracker: performance}}
+  \begin{overlayarea}{\textwidth}{\textheight}
+    \begin{figure}[h]\centering
+      \includegraphics[height=0.2\textheight]{./Images/22_CFT_performance.pdf}\\
+      \includegraphics[height=0.3\textheight]{./Images/23_CFT_performance}
+      \includegraphics[height=0.3\textheight]{./Images/24_CFT_performance}
+    \end{figure}
+    \itt[<+->]
+  \item Average photon yield depends upon path length through
+    scintillator.
+  \item On average 8 photons produced per hit
+    \tti
+ \end{overlayarea}
+\end{frame}
 
 %%%%%% SLIDE
 % \begin{frame}{\textcolor{Goldenrod}{Central Fiber Tracker}}
@@ -219,63 +231,24 @@
 % \end{frame}
 
 
-%%%%%% SLIDE
-\begin{frame}{\textcolor{Goldenrod}{Central Fiber Tracker: VLPC}}
-  \(
-  \<{0.3\textwidth}
-  \img{21_CFT_VLPC.jpg}\\
-  \img{21_CFT_VLPC_01.jpg}\\
-  \img{21_CFT_VLPC_02.jpg}\\
-  \>
-  \<{0.7\textwidth}
-  \itt[<+->]
-\item Visible Light Photon Counter (VLPC) is a solid state photo-detector with $8$ input pixels $1
-  mm$ in diameter each
-\item VLPC is operated at $9 K$ with bias voltages $6-8 V$
-\item provides high gain of $25000-60000$ electrons per detected
-  photon
-\item VLPCs with similar properties grouped together to optimize
-  performance
-  \tti
-  \>
-  \)
-\end{frame}
 
+% %%%%%% SLIDE
+% \begin{frame}{\textcolor{Goldenrod}{Central Fiber Tracker: Central Track Tigger (CTT)}}
+%   \(
+%   \<{0.7\textwidth}
+%   \itt[<+->]
+% \item Counts track candidates identified in axial view of CFT by
+%   looking for hits in all 8 axial layers
+% \item Combines tracking and preshower information to identify
+%   electron and photon candidates
+% \item
+%   Generates track lists allowing other trigger systems to
+%   perform track matching
+%   \tti
+%   \>
+%   \<{0.3\textwidth}
+%   \img{20_CFT}
+%   \>
+%   \)
+% \end{frame}
 
-%%%%%% SLIDE
-\begin{frame}{\textcolor{Goldenrod}{Central Fiber Tracker: Central Track Tigger (CTT)}}
-  \(
-  \<{0.7\textwidth}
-  \itt[<+->]
-\item Counts track candidates identified in axial view of CFT by
-  looking for hits in all 8 axial layers
-\item Combines tracking and preshower information to identify
-  electron and photon candidates
-\item
-  Generates track lists allowing other trigger systems to
-  perform track matching
-  \tti
-  \>
-  \<{0.3\textwidth}
-  \img{20_CFT}
-  \>
-  \)
-\end{frame}
-
-%%%%%% SLIDE
-\begin{frame}{\textcolor{Goldenrod}{Central Fiber Tracker: performance}}
-  \begin{overlayarea}{\textwidth}{\textheight}
-    \begin{figure}[h]\centering
-      \includegraphics[height=0.2\textheight]{./Images/22_CFT_performance.pdf}\\
-      \includegraphics[height=0.2\textheight]{./Images/23_CFT_performance}
-      \includegraphics[height=0.2\textheight]{./Images/24_CFT_performance}
-    \end{figure}
-    \itt[<+->]
-  \item Average light yield depends upon path length through
-    scintillator.
-  \item On average 8 photons produced per hit
-  \item Using good 15 hit CFT tracks, the average probability of a
-    cluster in excluded layer is $98$\%
-    \tti
- \end{overlayarea}
-\end{frame}

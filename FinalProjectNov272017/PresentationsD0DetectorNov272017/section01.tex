@@ -10,12 +10,9 @@
       \includegraphics[height=0.5\textheight]{./Images/02_D0_general.jpg}
       \caption*{Aerial view of Fermilab National Accelerator Laboratory}
     \end{figure}
-    
     \itt
   \item[$\Box$] probed $\sqrt{s} = 1.96 TeV$ $p-\bar{p}$ collisions at a rate of
-    \alert{$1.2\times 10^{6}\frac{1}{s^{-1}}$}
-
-  \item recorded $120 pb^{-1}$ of data in run I (1992–1996) and  ? 
+    \alert{$1.2\times 10^{6} s^{-1}$} (\alert{$\approx \mathcal{L}_{int} = 10 fb^{-1}$})
     \tti
   \end{overlayarea}
 \end{frame}
@@ -41,9 +38,8 @@
 \item \hlt{Magenta}{Higgs boson   }
 \item \hlt{Red}{Supersymmetry}
 \item $W', Z'$, heavy leptons and heavy quarks
-\item Surprises are also welcomed :D 
+\item Surprises !
   \tti
-  
   \tti
 \end{frame}  
 %%%%% LONG VERSION
@@ -94,38 +90,41 @@
 
 
 \subsection{Design considerations}
-\begin{frame}{\textcolor{Goldenrod}{D$\emptyset$ design considerations}}
-  \itt[<+->]
-\item[$\bullet$] \textcolor{blue}{Electromagnetic energy resolution at the level of $\delta E / E
-  = \frac{0.05}{\sqrt{E}}$ with good $\pi^0-e $ separation:}
-  {\small
-    \itt
-  \item good electron ID for narrow massive states searches and
-    to lower electron-jet faking rate. \\
-  \item good lateral and longitudinal sampling for single $\gamma$
-    searches with high $p_T$ (\alert{challenging $\pi^0-e $ separation})
-    \tti
-  }
-\item[$\bullet$] \textcolor{blue}{Muon momentum resolution of approximately $20$\%:}
-  {\small
-    \itt
-  \item muons are less analyzed, but with charge tagging $\to$ ID them even inside
-    jets which is important for many searches
-    \tti
-  }
-\item[$\bullet$] \textcolor{Blue}{Hadron energy resolution of about $\delta E / E
+%%%%%%%% SLIDE
+\begin{frame}{\textcolor{Goldenrod}{D$\emptyset$ Design Considerations}}
+  \itt
+\item[$\bullet$]<1-> \textcolor{blue}{Electromagnetic energy resolution at the level of $\delta E / E
+    = \frac{0.05}{\sqrt{E}}$ with good $\pi^0-e $ separation}
+  % {\small
+  %   \itt
+  % \item good electron ID for narrow massive states searches and
+  %   to lower electron-jet faking rate. \\
+  % \item good lateral and longitudinal sampling for single $\gamma$
+  %   searches with high $p_T$ (\alert{challenging $\pi^0-e $ separation})
+  %   \tti
+  % }
+  
+\item[$\bullet$]<1-> \textcolor{blue}{good muon momentum resolution and
+    muon ID}
+  % {\small
+  %   \itt
+  % \item muons are less analyzed, but with charge tagging $\to$ ID them even inside
+  %   jets which is important for many searches
+  %   \tti
+  % }
+\item[$\bullet$]<2-> \textcolor{Blue}{Hadron energy resolution of about $\delta E / E
     = \frac{0.8}{\sqrt{E}}$:}
   {\small
     \itt
-  \item \textcolor{Magenta}{jet energies, masses and $\slashed{E_{T}}$ are critically
-    dependent upon it.}
+  \item \textcolor{Magenta}{$p^{jet}_T, m^{jet}$, and $\slashed{E_{T}}$ are critically
+      dependent upon it.}
     \tti
   }
-\item[$\bullet$] \textcolor{Blue}{Missing transverse energy resolution:}
+\item[$\bullet$]<3-> \textcolor{Blue}{Missing transverse energy resolution:}
   {\small 
     \itt
-  \item good hadron energy resolution $\to$ uranium-liquid argon
-    calorimerty was chosen.
+  % \item good hadron energy resolution $\to$ uranium-liquid argon
+  %   calorimerty was chosen.
     
   \item \textcolor{Magenta}{angular coverage down to about $1^{\circ}$}
     
@@ -133,17 +132,18 @@
     \tti
   }
   \tti   
-  
 \end{frame}
 
-
 %%%%%% The upgraded D0
-\usebackgroundtemplate{%
-  \tikz\node[opacity=0.07]{
-    \includegraphics[width=\paperwidth,height=\paperheight]{./Images/01_dzero_wholedetector}
-  };
-}
-\begin{frame}{\textcolor{Goldenrod}{D$\emptyset$ Experiment}}
+\begin{frame}{\textcolor{Goldenrod}{Upgraded D$\emptyset$}}
+  \begin{figure}[h]
+    \img{00_upgraded_D0}
+    \caption*{upgraded D$\emptyset$ detector viewed from inside the Tevatron ring}
+  \end{figure}
+\end{frame}
+
+%%%%%%% SLIDE 
+\begin{frame}{\textcolor{Goldenrod}{Upgraded D$\emptyset$ }}
   % \<{0.5\textwidth}
   % \begin{center}
   %   \img{01_dzero_wholedetector}
@@ -155,7 +155,7 @@
 \item[$\Box$]<only@1> \hlt{Blue}{in 2001 after the Main Injector and associated Tevatron
   upgrades the instantaneous luminosity increased by more than a factor of ten}
   
-\item[$\Box$]<only@2> \hlt{Magenta}{The central tracking system was completely replaced.}
+\item[$\Box$]<only@1> \hlt{Magenta}{The central tracking system was completely replaced.}
   {\small
     \itt
   \item \alert{the old system lacked a magnetic field and suffered from radiation
@@ -166,11 +166,11 @@
     magnet.
     \tti
   }
-\item[$\Box$]<only@3> \hlt{blue}{Between the solenoidal magnet and the central calorimeter and
+\item[$\Box$]<only@2> \hlt{blue}{Between the solenoidal magnet and the central calorimeter and
     in front of the forward calorimeters, preshower detectors have
     been added for improved electron identification.}
   
-\item[$\Box$]<only@4> \hlt{Blue}{In the forward muon system, proportional drift chambers are
+\item[$\Box$]<only@2> \hlt{blue}{In the forward muon system, proportional drift chambers are
     replaced by mini drift tubes and trigger scintillation
     counters\\}
   {\small
@@ -178,13 +178,11 @@
   \item which can withstand the harsh radiation environment and
     additional shielding has been added.
     
-  \item In the central region,
-    scintillation counters have been added for improved muon
-    triggering.
+  \item \alert{In the central region,
+      scintillation counters have been added for improved muon
+      triggering.}
     \tti
   }
   \tti
 \end{frame}
-
-
 
