@@ -148,7 +148,7 @@
 \begin{frame}
 	\vspace{0.9cm}
 
-\title[]{Neutrino Detectors}
+\title[]{D$\emptyset$ Detector}
 \author{Sina Bahrasemani\\
   \vspace{0.2in}
 }
@@ -181,41 +181,28 @@
 % % % \section{Luminosity monitor}
 % % % \section{Triggering}
 
-\foreach \index in {1, ..., 9}{
+\foreach \index in {1, ..., 2}{
   \input{section0\index.tex}\par
 }
 
 
-
-%%%%%% SLIDE
-\begin{frame}{\textcolor{Goldenrod}{Title }}
-  \begin{overlayarea}{\textwidth}{\textheight}
-    \begin{figure}[h]
-      \centering
-      %\includegraphics[height=0.4\textheight]{./Images/}
-    \end{figure}
-    
-    \itt[<+->]
-  \item item
-    \tti
-  \end{overlayarea}
+%%%%%%%%%%%%%% APPENDIX
+\newcounter{finalframe}
+\setcounter{finalframe}{\value{framenumber}}
+\beginbackup
+\usebackgroundtemplate{
+  \includegraphics{./Images/200_thank_you}}%
+\begin{frame}[noframenumbering]
+  \hlt{ForestGreen}{Thank you }
 \end{frame}
 
-%%%%%% SLIDE
-\begin{frame}{\textcolor{Goldenrod}{Title}}
-  \(
-  \<{0.6\textwidth}
-  \itt[<+->]
-\item item 
-  \tti
-  \>
-  
-  \<{0.4\textwidth}
-  % \img{}
-  \>
-  \)
-\end{frame}
+\input{appendix}
+\backupend
+\end{document}
 
+
+
+%%%% frame template
 %%%%%%%%% SLIDE
 % \begin{frame}{\textcolor{Goldenrod}{Title }}
 %   \begin{figure} \centering
@@ -226,5 +213,4 @@
 %       \onslide<2->\zoombox[magnification=5,color code=lime]{0.86,0.35}
 %     \end{tikzpicture}
 %   \end{figure}
-% \end{frame}  
-\end{document}
+% \end{frame}
