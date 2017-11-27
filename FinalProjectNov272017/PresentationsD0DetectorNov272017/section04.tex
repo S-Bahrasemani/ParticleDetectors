@@ -6,46 +6,43 @@
 %%%%%% SLIDE
 \begin{frame}{\textcolor{Goldenrod}{Preshower detector }}
   \begin{overlayarea}{\textwidth}{\textheight}
-    \(
-    \<{0.45\textwidth}
-    \itt[<+->]
-  \item calorimetery as well as tracking detectors:\\
-    electron ID and background rejection at online triggering and
-    offline reconstruction.
-  \item triangular strips of scintillator with a wavelength-shifter at
-    center of each strip and a waveguide transfering light to PMTs.
-  \item The central preshower detector (CPS) consisted of three
-    concentric cylindrical layers ($|\eta| < 1.3$)
-  %   % and is located between the solenoid and the central calorimeter
-  % \item The two forward preshower detectors (FPS) cover $1.5 < |\eta| < 2.5$
-  %   % and are attached to the faces of the end calorimeters.
-  % \item a wavelength-shifter at center of each strip
+    \begin{figure}[h]\centering
+      \includegraphics[height=0.55\textheight, width=0.9\textwidth]{./Images/29_PS_forward.pdf}
+    \end{figure} 
+    \itt
+  \item \hlt{black}{calorimetery as well as tracking detectors:\\}
+    \alert{electron ID and background rejection at online triggering and
+      offline reconstruction.}
     \tti
-    
-    \note{, enhancing the
-      spatial matching be- tween tracks and calorimeter showers [78]. The
-      detectors can be used offline to correct the electromagnetic energy
-      measurement of the central and end calorimeters for losses in the
-      solenoid and upstream material}
-    
-    \note{Since the triangles are
-      interleaved, there is no dead space between strips and most tracks
-      traverse more than one strip, allowing for strip-to-strip
-      interpolations and improved position measurement.}
-
-    \note{The preshower detectors share common elements with the central
-      fiber tracker, beginning with the waveguides and continuing
-      through the entire readout elec- tronics system.}
-    \>
-
-    \<{0.7\textwidth}
-    \img{29_PS_forward.pdf}
-      %\img{33_PS}\\
-      %\img{31_PS}\\
-    \>
-
-    \)
   \end{overlayarea}
+\end{frame}
+
+
+%%%%%% SLIDE
+\begin{frame}{\textcolor{Goldenrod}{Central Preshower Detector}}
+  \(
+  \<{0.37\textwidth}
+  \img{29_PS_unit_cell.pdf}\\
+  \img{30_PS_triangle_strip}\\
+  \img{29_PS_central.pdf}
+  \>
+  \<{0.7\textwidth}
+  \itt
+\item[$\Box$] three concentric cylindrical layers of $1280$ scintillators,
+  arranged in an axial-u-v ($23^{\circ}$) geometry
+\item[\Box] scintillators:\\
+  \itt
+  \item \alert{triangular strips with a wavelength-shifter at
+    center of each strip and a waveguide transfering light to outer
+    VLPCs.}
+  \item made of extruded polystyrene (PS), \it{paraterphenyl (PT) $1$\%, and
+      diphenyl stilbene (DS)$0.15$\%}
+    \tti
+  % \item \alert{each scintillator strip is machine-wrapped in aluminized
+  %   mylar for optical isolation}
+  \tti
+  \>
+  \)
 \end{frame}
 
 
@@ -54,31 +51,63 @@
 \begin{frame}{\textcolor{Goldenrod}{Forward Preshower detector }}
   \(
   \<{0.75\textwidth}
-  \itt[<+->]
-\item[$\bullet$] The upstream layers are known as the minimum ionizing particle,
-  or MIP, layers while the downstream layers behind the absorber are
-  called the shower layers.
+  \itt
+  \note{The upstream layers are known as the minimum ionizing particle,
+    or MIP, layers while the downstream layers behind the absorber are
+    called the shower layers.}
 \item[$\bullet$] Charged particles passing through the detector will register
   minimum ionizing signals in the MIP layer $\to$ tracking.
   
-\item[$\bullet$] {\small Electrons shower in the absorber $\to$ a cluster of
-  energy,
-  % (typically on the order of three strips wide),
-  which is then matched
-  to MIP-layer signal.}
-  
-\item[$\bullet$] {\small Photons will not generally interact in the MIP layer, but will
-  produce a shower signal in the shower layer.}
-  
-\item[$\bullet$] {\small Heavier charged particles are less likely to shower, typically
-  producing a second MIP signal in the shower layer.}
+\item[$\bullet$] {\small \alert{Electrons shower in the absorber $\to$
+      a cluster of energy, % (typically on the order of three strips wide),
+      which is then matched to MIP-layer signal.}}
+\item[$\bullet$] {\small Photons will not generally interact in the
+    MIP layer, but will produce a shower signal in the shower layer.}
+\item[$\bullet$] {\small \textcolor{blue}{Heavier charged particles
+      are less likely to shower, typically producing a second MIP signal in
+      the shower layer.}}
   \tti
   \>
   \<{0.4\textwidth}
   \img{30_PS}\\
-  {\scriptsize FPS module with  $u -v$ MIP
+  {\scriptsize FPS module with  $u-v$ MIP
     and shower layers, separated by a lead and stainless steel absorber.}
   \>
   \)
 \end{frame}
 
+%%%%%% SLIDE
+\begin{frame}{\textcolor{Goldenrod}{Forward Preshower Detector}}
+  \begin{overlayarea}{\textwidth}{\textheight}
+    \begin{figure}[h]\centering
+      \includegraphics[height=0.5\textheight, width=0.5\textwidth]{./Images/29_PS_forward_01.pdf}
+      \includegraphics[height=0.5\textheight,width=0.5\textwidth]{./Images/29_PS_forward_modules.pdf}
+      \caption*{$r-\phi$ view of the north FPS detector. For clarity,
+        only layers 2 (shower) and 4 (MIP) are shown; layers 1
+        (shower) and 3 (MIP) are rotated by 22.5 degrees in $\phi$ with respect to
+        these layers so their supports do not overlap.}
+    \end{figure} 
+\end{overlayarea}
+\end{frame}
+
+
+%%%%%% SLIDE
+\begin{frame}{\textcolor{Goldenrod}{Forward Preshower Detector}}
+  \begin{overlayarea}{\textwidth}{\textheight}
+    \begin{figure}[h]\centering
+      \includegraphics[height=0.45\textheight, width=0.5\textwidth]{./Images/29_PS_performance.pdf}
+      \includegraphics[height=0.45\textheight,width=0.5\textwidth]{./Images/29_PS_performance_01.pdf}
+      
+    \end{figure} 
+    \itt
+  \item left: the shower
+    profile of $50 GeV$ electrons in the FPS for both the u and the v
+    module layers.
+  \item right:
+    The MIP spectrum for $125$ GeV pions traversing the u layer of
+    the forward FPS module.
+    \note{The spectrum is an event by event sum
+      of the two adjacent hit strips}
+    \tti
+\end{overlayarea}
+\end{frame}

@@ -48,12 +48,12 @@
     \end{figure}
     {\small
     \itt
-  \item 
+  \item[$\bullet$] 
     three layers of drift chambers, located inside (A layer)
     and outside (B and C layers) of the central toroid\\
     in total $94$ PDT chambers with $6624$ cells.
     
-  \item
+  \item[$\bullet$]
     The $2.8 \times 5.6 m^2$ chambers (3 or 4 decks of PDT), are
     filled with 84\% Argon, 8\% $CF_4$,and 8\% $CH_4$ (fast and
     non-flammable).
@@ -74,22 +74,24 @@
     aluminium enclosure, an anode wire at the center and two cathode
     pads above and below the anode wire.}
 
-  \item Anodes are held at $4.7 kV$ and electrodes at $2.3 kV$
+  \item[$\circ$] Anodes are held at $4.7 kV$ and electrodes at $2.3 kV$
     The maximum electron drift time in the $10 cm$ wide drift cell is
     $450 ns$
     
-  \item The cathode pads are made of
+  \item[$\circ$] The cathode pads are made of
     thin copper-clad Glasteel
     
-  \item For each PDT hit, the
-    electron drift time, the difference $\Delta T$ in the arrival time of the
-    signal pulse at the end of the hit cell’s wire and at the end of
-    its readout partner’s wire, and the charge deposition on the
-    cathode is measured.
-
-  \item
-    only the A-layer pads are fully instrumented with electronics.
-    about 10\% of the B-and C-layer pads are instrumented.
+  \item[$\circ$] \hlt{black}{For each PDT hit:\\}
+    \itt
+  \item the electron drift time,
+  \item \alert{ $\Delta t$, the difference in the arrival time of the signal
+      pulse at the end of the hit cell’s wire and at the end of its readout
+      partner’s wire}
+  \item the charge deposition on the cathode is measured.
+    \tti
+  \item[$\circ$]
+    \alert{only the A-layer pads are fully instrumented with electronics.
+    about 10\% of the B-and C-layer pads are instrumented.}
   \tti
   \end{overlayarea}
 \end{frame}
@@ -119,7 +121,7 @@
       \includegraphics[height=0.35\textheight]{./Images/45_MD_miniPDT_03.pdf}
     \end{figure}
     \itt
-  \item
+  \item[$\circ$]
     each anode wire is
     connected to an amplifier discriminator board (ADB)\\
     
@@ -133,7 +135,7 @@
       almost 50,000 TDCs (time-to-digital converters). Hit information
       is sent to the trigger and data acquisition systems; the data
       acquisition system also receives drift times.}
-  \item
+  \item[$\circ$]
     tracking efficiency $\approx 99$\% perpendicular to the MDT plane\\
     overall $\approx 95$\% (due to the wall thickness and PVC sleeves) 
     \tti
@@ -169,24 +171,23 @@
     \begin{figure}[h]
       \centering
       \includegraphics[height=0.4\textheight, width=0.4\textwidth]{./Images/46_MD_Scint_01.pdf}
-      \includegraphics[height=0.4\textheight, width=0.6\textwidth]{./Images/46_MD_Scint_02.pdf}
+      \includegraphics[height=0.4\textheight, width=0.5\textwidth]{./Images/46_MD_Scint_02.pdf}
     \end{figure}
     \itt
 
   \item
-    Nine barrels of counters cover the entire span $|\eta| < 1.0$ in the
-    beam direction.
+    Nine barrels of counters cover $|\eta| < 1.0$.
 
-    \item each counter is 84.5 cm long. Twenty
-      counter columns, of three different widths, cover one quadrant in
-      the azimuthal direction.
+  % \item each counter is $84.5 cm$ cm long. Twenty
+  %   counter columns, of three different widths, cover one quadrant in
+  %   the azimuthal direction.
     
   \item
-    The $\phi$ segmentation is approximately $4.5^{\circ}$ which matches the
-    central fiber tracker trigger (Section 9.1.3) segmentation. The
-    longitudinal segmentation is $33.25”$ which provides the necessary
-    time resolution and a match to the size of the PDTs
-
+    \alert{$\delta \phi \approx 4.5^{\circ}; \delta l \approx 80 cm$
+      to match CFT segmentation and time resolution of PDT}
+    % central fiber tracker trigger (Section 9.1.3) segmentation. The
+    % longitudinal segmentation is $33.25”$ which provides the necessary
+    % time resolution and a match to the size of the PDTs
   \item
     $12.7-mm-thick$ BICRON $404A$ scintillator with BICRON BCF $92$
     wavelength shifter fiber
@@ -219,17 +220,17 @@
 \begin{frame}{\textcolor{Goldenrod}{Muon $A\phi$ Scintillation Counters Performance }}
   \begin{overlayarea}{\textwidth}{\textheight}
     \begin{figure}[h]\centering
-      \includegraphics[height=0.4\textheight]{./Images/46_MD_Scint_03}
+      \includegraphics[height=0.35\textheight]{./Images/46_MD_Scint_03}
     \caption*{{\scriptsize The time-of-arrival distributions recorded by $A\phi$ counters in
         events triggered by a) all triggers b) muon triggers only.}}
     \end{figure}
     
     \itt
   \item the peaks around zero in both figures are from muons
-    originating at the interaction region.
+    originating at the interaction region
   \item
-    the time resolution of all $630$ $A\phi$ counters combined is
-    $\sigma_t = 2.5 ns$.
+    \alert{the time resolution of all $630$ $A\phi$ counters combined is
+    $\sigma_t = 2.5 ns$}
     
     \note{
       The time-of-arrival distribution shown in Fig. 12a includes a
@@ -247,15 +248,15 @@
   \(
   \<{0.7\textwidth}
   \itt
-  \item $4214$ trapezoidal counters are arranged in an $r-\phi$ geometry in about twelve
+  \item[$\bullet$] $4214$ trapezoidal counters are arranged in an $r-\phi$ geometry in about twelve
     concentric zones in the radial direction($1.0 < |\eta| < 2.0$)
-  \item the segmentation:\\
+  \item[$\bullet$] the segmentation:\\
     $i)$ matches the $\phi$ segmentation of the CFT\\
     $ii)$ the minimum muon trigger momentum threshold\\
     $iii)$ muon multiple scattering in the toroids\\
-    $iv)$ background trigger rates due to accidental coincidences
+    $iv)$ \alert{background trigger rates due to accidental coincidences
     (combinatoric background rejection scales as $N^m$ for m layers of
-    N counters.)
+    N counters.)}
     \tti
     \>
     \<{0.45\textwidth}
@@ -295,19 +296,4 @@
   \end{overlayarea}
 \end{frame}
 
-
-%%%%%% SLIDE
-\begin{frame}{\textcolor{Goldenrod}{Combinatorial Background}}
-  \begin{overlayarea}{\textwidth}{\textheight}
-    \begin{figure}[h]
-      \centering
-      \includegraphics[height=0.5\textheight, width=0.5\textwidth]{./Images/103_extra_combinatorial_bkgs_01}
-      \includegraphics[height=0.5\textheight, width=0.5\textwidth]{./Images/103_extra_combinatorial_bkgs_02}
-    \end{figure}
-    
-    \itt
-  \item the non-background background!
-    \tti
-  \end{overlayarea}
-\end{frame}
 
